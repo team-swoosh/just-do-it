@@ -36,7 +36,7 @@ a:hover{
 .border-right{
 	padding:10px;
 	/* box-shadow: inset -1px 0 0 0 #e5e5e5; */
-	border-right: 1px solid lightgray
+	border-right: 1px solid lightgray;
 	
 }
 .topnav-right li{
@@ -51,6 +51,43 @@ a:hover{
 #USA{
 	width:150px;
 }
+#login:hover{
+	border-bottom: 2px solid black;
+	
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	width:200px;
+}
+.dropdown-content a:hover {
+	background-color: white;
+	color: #757575;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+	
+}
+
+#nike{
+	height: 70px;
+	width: 70px;
+}
+
+
 
 
 

@@ -43,16 +43,32 @@
 			<ul class="navbar-nav ml-auto topnav-right">
 				<li>
 					<span id="login">
-						<a href="#">Join/Log In To NikePlus Account	
+						<a href="#" class="hover-color-black">Join/Log In To NikePlus Account	
 						</a>
 					</span>
 				</li>
-
-				<li> <a href="#">Help</a></li>
-				<li><i class="fas fa-shopping-cart"></i></li>
+				<!-- dropdown -->
+				<div class="dropdown"> 
+					<a href="#" id="help">Help</a>
+						<div class="dropdown-content">
+							<a href="#">Order Status</a>
+							<a href="#">Shipping and Delivery</a>
+							<a href="#">Returns</a>
+							<a href="">Contact Us</a>
+							<a href="">Privacy Policy</a>
+							<a href="">Terms & Conditions</a>
+							<a href="">Site Feedback</a>
+							<a href="">View All</a>
+						</div>
+				</div>
+				<li>
+					<a href="#">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+				</li>
 				<li>
 					<span id="USA">
-						<a href="">
+						<a href="#">
 						<i class="fas fa-map-marker-alt"></i>
 							United States
 						</a>
@@ -60,8 +76,17 @@
 				</li>
 
 			</ul>
-
 		</nav>
+	<!-- BOTTOM NAV -->
+<nav class="navbar navbar-light bottom-nav">
+  <a class="navbar-brand"><img src="<?php echo get_template_directory_uri(); ?>/img/nike-logo2.png" id="nike" alt=""></a>
+			<div>
+				
+			</div>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  </form>
+</nav>
 			<!-- header -->
 
 			</header>
