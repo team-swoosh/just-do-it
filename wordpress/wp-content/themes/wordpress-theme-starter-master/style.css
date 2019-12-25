@@ -35,7 +35,8 @@ a:hover{
 
 .border-right{
 	padding:10px;
-	box-shadow: inset -1px 0 0 0 #e5e5e5;
+	/* box-shadow: inset -1px 0 0 0 #e5e5e5; */
+	border-right: 1px solid lightgray
 	
 }
 .topnav-right li{
@@ -43,11 +44,12 @@ a:hover{
 	padding-right: 15px;
 	overflow: hidden;
 }
-#login{
-	;
+#login,#USA{
+	display:inline-block;
+	width:200px;
 }
-#join{
-
+#USA{
+	width:150px;
 }
 
 

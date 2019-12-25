@@ -21,7 +21,7 @@
 					tests: {}
 			});
 		</script>
-
+		 <script src="https://kit.fontawesome.com/92ab37b888.js" crossorigin="anonymous"></script>
 	</head>
 	<body <?php body_class(); ?>>
 	<section>	
@@ -41,11 +41,23 @@
 				</ul>
 			</div>
 			<ul class="navbar-nav ml-auto topnav-right">
-				<li id="login"><span><a href="#" id="join">Join/Log In To NikePlus Account</a></span></li>
+				<li>
+					<span id="login">
+						<a href="#">Join/Log In To NikePlus Account	
+						</a>
+					</span>
+				</li>
 
 				<li> <a href="#">Help</a></li>
 				<li><i class="fas fa-shopping-cart"></i></li>
-				<li><a href="#">United States</a></li>
+				<li>
+					<span id="USA">
+						<a href="">
+						<i class="fas fa-map-marker-alt"></i>
+							United States
+						</a>
+					</span>
+				</li>
 
 			</ul>
 
