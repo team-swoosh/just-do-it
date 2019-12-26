@@ -24,32 +24,37 @@
 		 <script src="https://kit.fontawesome.com/92ab37b888.js" crossorigin="anonymous"></script>
 	</head>
 	<body <?php body_class(); ?>>
-	<section>	
-		<nav class="navbar navbar-expand-md topnav">
-			<div class="w-100">
-				<ul class="navbar-nav mr-auto">
-					<li class="border-right"><a href="#">Nike Plus</a></li>
-					<li class="border-right">
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/jordan-symbol.png" id="jordan" alt="jordan logo"></a>
-					</li>
-					<li class="border-right">
-						<a href="#">Hurley</a>
-					</li>
-					<li class="border-right">
-						<a href="#">Converse</a>
-					</li>
-				</ul>
-			</div>
-			<ul class="navbar-nav ml-auto topnav-right">
-				<li>
-					<span id="login">
-						<a href="#" class="hover-color-black">Join/Log In To NikePlus Account	
-						</a>
-					</span>
-				</li>
-				<!-- dropdown -->
-				<div class="dropdown"> 
-					<a href="#" id="help">Help</a>
+	<section class="">	
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light topnav">
+  
+  		<div class="collapse navbar-collapse" id="navbarNav">
+    		<ul class="navbar-nav">
+      			<li class="nav-item">
+        		<a class="nav-link border-right" href="#">NikePlus<span class="sr-only">(current)</span>
+				</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link border-right" href="#">Jordan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link border-right" href="#">Hurley</a>
+      </li>
+      <li class="nav-item" id="converse">
+        <a class="nav-link border-right" href="#">Converse</a>
+      </li>
+      
+      <ul class="navbar-nav d-flex justify-content-end">
+      <li class="nav-item nav-right">
+		<a href="#" class="nav-link">
+			  <span id="login">
+				  Join/Login To Account
+			  </span>
+		</a>
+      </li>
+     <div class="dropdown"> 
+					<a class="nav-link" href="#" id="help">Help</a>
 						<div class="dropdown-content">
 							<a href="#">Order Status</a>
 							<a href="#">Shipping and Delivery</a>
@@ -61,32 +66,44 @@
 							<a href="">View All</a>
 						</div>
 				</div>
-				<li>
-					<a href="#">
-						<i class="fas fa-shopping-cart"></i>
-					</a>
-				</li>
-				<li>
-					<span id="USA">
-						<a href="#">
-						<i class="fas fa-map-marker-alt"></i>
-							United States
-						</a>
-					</span>
-				</li>
+       <li class="nav-item nav-right">
+		   <a href="#" class="nav-link">
+			   <i class="fas fa-shopping-cart">
+			   </i>
+			</a>
+      </li>
+      <li class="nav-item nav-right">
+		  	<a href="#" class="nav-link">
+		  		<span id="USA">
+				  <i class="fas fa-map-marker-alt"></i>United States
+		  		</span>
+			</a>
+      </li>
+      </ul>
+  
+    </ul>
+  </div>
 
-			</ul>
-		</nav>
-	<!-- BOTTOM NAV -->
-<nav class="navbar navbar-light bottom-nav">
-  <a class="navbar-brand"><img src="<?php echo get_template_directory_uri(); ?>/img/nike-logo2.png" id="nike" alt=""></a>
-			<div>
-				
-			</div>
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-  </form>
+  <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 </nav>
+	<!-- BOTTOM NAV -->
+<!-- <nav class="navbar navbar-light bottom-nav">
+  <a class="navbar-brand"><img src="<?php echo get_template_directory_uri(); ?>/img/nike-logo2.png" id="nike" alt=""></a>
+  <div class="nav navbar center">
+	  <ul class="nav navbar center bn-items">
+		  <li><a href="#">NEW RELEASES</a></li>
+		  <li><a href="#">MEN</a></li>
+		  <li><a href="#">WOMEN</a></li>
+		  <li><a href="#">KIDS</a></li>
+		  <li><a href="#">CUSTOMIZE</a></li>
+	  </ul>
+  </div>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2 searchbar" type="search" placeholder="Search" aria-label="Search">
+  </form>
+</nav> -->
 			<!-- header -->
 
 			</header>
