@@ -27,7 +27,7 @@
 	<section class="">	
 
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light topnav">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light topnav sticky-top">
   
   		<div class="collapse navbar-collapse" id="navbarNav">
     		<ul class="navbar-nav">
@@ -104,7 +104,7 @@
 </nav>
 
 	<!-- BOTTOM NAV -->
-<nav class="navbar navbar-light bottom-nav">
+<nav class="navbar navbar-light bottom-nav sticky-top">
   <a class="navbar-brand">
 	  <img src="<?php echo get_template_directory_uri(); ?>/img/nike-logo2.png" id="nike" alt="">
 	</a>

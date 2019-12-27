@@ -7,7 +7,11 @@ get_header(); ?>
 
 	<main role="main">
 		<!-- section -->
-	
+		<div class="container">
+		<figure class="hero">
+
+		</figure>
+	</div>
 		<!-- /section -->
 	</main>
 
