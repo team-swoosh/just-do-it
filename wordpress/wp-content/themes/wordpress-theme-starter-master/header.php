@@ -109,7 +109,7 @@
   <a class="navbar-brand">
 	  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" id="nike" alt="">
 	</a>
-	<div class="tester">
+	
   <div class="nav navbar center">
 	  <ul class="nav navbar center bn-items">
 		  <div class="dropdown2">
@@ -135,7 +135,7 @@
 		  <li><a href="#">CUSTOMIZE</a></li>
 	  </ul>
   </div>
-		</div>
+		
   <form class="form-inline">
     <input class="form-control mr-sm-2 searchbar d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
   </form>

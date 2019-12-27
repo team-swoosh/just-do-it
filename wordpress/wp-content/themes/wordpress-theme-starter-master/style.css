@@ -89,9 +89,7 @@ a{
 
 }
 
-.bn-items {
-	background-color: midnightblue;
-}
+
 
 .bn-items li{
 	margin-left:15px;
@@ -104,21 +102,16 @@ a{
 	
 }
 
-.tester {
-	background-color: rebeccapurple;
-	height: 100px;
-	width: 100%;
-}
+
 
 .dropdown-content2{
 	/* display: none; */
 	position: absolute;
-	/* left: -28vw; */
 	background-color: white;
 	z-index: 1;
 	border: 1px solid lightgray;
 	/* width: 100vh; */
-	
+
 	
 }
 .dropdown-content2 a:hover {
@@ -128,9 +121,11 @@ a{
 	color: lightgray !important;
 	
 	
+	
 }
 .dropdown2:hover .dropdown-content2 {
 	display: block;
+	
 	
 }
 .dropdown-content2 a {
@@ -139,6 +134,7 @@ a{
 	display: block;
 	/* width:500px; */
 	width: 100vw;
+	
 }
 .newmen{
 	position: absolute;
