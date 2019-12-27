@@ -1,0 +1,13 @@
+/**
+ * partials/header
+ * ---
+ */
+.logo {
+  width: 35%;
+  max-width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 3%;
+  left: 7%;
+}
+/*# sourceMappingURL=header.css.map */

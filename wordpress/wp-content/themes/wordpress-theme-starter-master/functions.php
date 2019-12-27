@@ -131,6 +131,7 @@ function html5blank_styles()
 }
 
 // Register HTML5 Blank Navigation
+
 function register_html5_menu()
 {
     register_nav_menus(array( // Using array to specify more menus if needed
@@ -139,7 +140,13 @@ function register_html5_menu()
         'extra-menu' => __('Extra Menu', 'html5blank') // Extra Navigation if needed (duplicate as many as you need!)
     ));
 }
-
+// Register HTML5 Blank Navigation
+function register_navwalker_menu()
+{
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'THEMENAME' ),
+    ) );
+}
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
 function my_wp_nav_menu_args($args = '')
 {
