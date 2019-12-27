@@ -12,10 +12,10 @@
 }
 .topnav{
 	border:1px solid lightgrey;
-	background-color: transparent !important;
 	font-size: 14px;
 	height:40px;
 	background-color: white;
+
   }
 
 .border-right{
@@ -41,7 +41,8 @@ a{
 	  background-color: white;
 	  border: 1px solid lightgray;
 	  width:300px;
-	  z-index: 999;
+	  z-index: 2000;
+	  
 	  
 }
   
@@ -51,11 +52,13 @@ a{
 	  text-decoration: none;
 	  display: block;
 	  width:500px;
+	  
   }
 .dropdown-content a:hover {
 	  background-color: white;
 	  color: #757575;
 	  position: relative;
+	  z-index: 9999;
 	  
 	  
   }
@@ -76,8 +79,8 @@ a{
 }
 
 #nike{
-	height: 50px;
-	width: 50px;
+	height: 30px;
+	width: 80px;
 
 }
 .bn-items a{
@@ -85,25 +88,28 @@ a{
 	font-weight: bold;
 
 }
-.bn-items{
-	margin-left: ;
-}
+
 .bn-items li{
 	margin-left:15px;
 }
 .bottom-nav{
 	border:1px solid lightgrey;
 	background-color: white;
+
+
+	
 }
 
 
 
 .dropdown-content2{
-	display: none;
+	/* display: none; */
 	position: absolute;
+	/* left: -28vw; */
 	background-color: white;
 	z-index: 1;
 	border: 1px solid lightgray;
+	/* width: 100vh; */
 	
 	
 }
@@ -123,7 +129,8 @@ a{
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-	width:500px;
+	/* width:500px; */
+	width: 100vw;
 }
 .newmen{
 	position: absolute;
@@ -138,6 +145,9 @@ a{
 	height: 800px;
 }
 
+.shop:hover {
+	background-color: transparent;
+}
 
 
 

@@ -26,8 +26,11 @@
 	<body <?php body_class(); ?>>
 	<section class="">	
 
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light topnav sticky-top">
+<div class="sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-light topnav">
+	<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   
   		<div class="collapse navbar-collapse" id="navbarNav">
     		<ul class="navbar-nav">
@@ -98,15 +101,13 @@
    		 </ul>
   </div>
 
-  <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+
 </nav>
 
 	<!-- BOTTOM NAV -->
 <nav class="navbar navbar-light bottom-nav sticky-top">
   <a class="navbar-brand">
-	  <img src="<?php echo get_template_directory_uri(); ?>/img/nike-logo2.png" id="nike" alt="">
+	  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" id="nike" alt="">
 	</a>
   <div class="nav navbar center">
 	  <ul class="nav navbar center bn-items">
@@ -123,19 +124,6 @@
 					  <a href="#">NIKELAB</a>
 					  <a href="#">MEMBER EXCLUSIVES</a>
 					  <a href="#">NEW TO SALE</a>
-					<div class="newmen">
-						  <a href="#" class="titleitem">NEW FOR MEN</a>
-						  <a href="#">Shoes</a>
-						  <a href="#">Clothing</a>
-						  <a href="#">Equipment</a>
-						  <a href="#">Shop All New</a>
-					</div>
-					<!-- <div class="newwomen">
-						<a href="#">NEW FOR WOMEN</a>
-						<a href="#">Shoes</a>
-						<a href="#">Clothing</a>
-						<a href="#">Shop All New</a>
-					</div> -->
 				</div>
 			</div>
 
@@ -150,6 +138,7 @@
     <input class="form-control mr-sm-2 searchbar d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
   </form>
 </nav>
+</div>
 			<!-- header -->
 
 			</header>
