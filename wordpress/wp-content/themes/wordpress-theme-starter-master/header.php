@@ -28,9 +28,6 @@
 
 <div class="sticky-top">
 	<nav class="navbar navbar-expand-lg navbar-light topnav">
-	<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
   
   		<div class="collapse navbar-collapse" id="navbarNav">
     		<ul class="navbar-nav">
@@ -104,43 +101,57 @@
 
 </nav>
 
-	<!-- BOTTOM NAV -->
-<nav class="navbar navbar-light bottom-nav sticky-top">
-  <a class="navbar-brand">
-	  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" id="nike" alt="">
-	</a>
-	
-  <div class="nav navbar center">
-	  <ul class="nav navbar center bn-items">
-		  <div class="dropdown2">
-			<li>
-				<a href="#">NEW RELEASES</a>
-			</li>
-			  	<div class="dropdown-content2" id="newrel">
-					  <a href="#">SHOP ALL NEW ARRIVALS</a>
-					  <a href="#">SNKRS LAUNCH CALENDAR</a>
-					  <a href="#">AIR FORCE 1</a>
-					  <a href="#">BEST OF AIR MAX</a>
-					  <a href="#">BEST SELLERS</a>
-					  <a href="#">NIKELAB</a>
-					  <a href="#">MEMBER EXCLUSIVES</a>
-					  <a href="#">NEW TO SALE</a>
-				</div>
-			</div>
+<!-- BOTTOM NAV -->
 
-
-		  <li><a href="#">MEN</a></li>
-		  <li><a href="#">WOMEN</a></li>
-		  <li><a href="#">KIDS</a></li>
-		  <li><a href="#">CUSTOMIZE</a></li>
-	  </ul>
-  </div>
-		
-  <form class="form-inline">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top bottom-nav">
+	<a class="navbar-brand">
+	  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" id="nike" alt="nike swoosh logo">
+	</a>  
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  	</button>
+  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    	<ul class="navbar-nav">
+			<li class="nav-item dropdown open" style="position: initial;">
+        		<a class="nav-link dropdown-toggle new" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				NEW RELEASES
+        		</a>
+        	<div class="dropdown-menu" style="width: 100%" aria-labelledby="navbarDropdownMenuLink">
+				<a href="#" class="dropdown-item bold-left">SHOP ALL NEW RELEASES</a>
+				<a href="#" class="dropdown-item bold-left">SNKRS LAUNCH CALENDAR</a>
+				<a href="#" class="dropdown-item bold-left">AIR FORCE 1</a>
+				 <a href="#" class="dropdown-item bold-left">BEST OF AIR MAX</a>
+				 <a href="#" class="dropdown-item bold-left">BEST SELLERS</a>
+				 <a href="#" class="dropdown-item bold-left">NIKELAB</a>
+				 <a href="#" class="dropdown-item bold-left">MEMBER EXCLUSIVES</a>
+				 <a href="#" class="dropdown-item bold-left">NEW TO SALE</a>
+       		</div>
+      		</li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="title-link">MEN <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="title-link">WOMEN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="title-link">KIDS</a>
+	  </li>
+	  <li class="nav-item" id="title-link">
+		  <a href="#" class="nav-link" id="title-link">CUSTOMIZE</a>
+		</li>
+    </ul>
+	</div>
+	<form class="form-inline">
     <input class="form-control mr-sm-2 searchbar d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
   </form>
 </nav>
+		</div>
+<div class="moving-ad">
+		<div>
+
+		</div>
 </div>
+
 			<!-- header -->
 
 			</header>

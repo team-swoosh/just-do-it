@@ -7,9 +7,9 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-
 }
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
 .topnav{
 	border:1px solid lightgrey;
 	font-size: 14px;
@@ -29,10 +29,15 @@ a{
 	margin-right:650px
 }
   
-.dropdown, .dropdown2 {
+.dropdown {
 	  position: relative;
 	  display: inline-block;
-  }
+	}
+	
+.dropdown2 {
+	background-color: rebeccapurple;
+	position: relative;
+}
 
 .dropdown-content{
 	  display: none;
@@ -71,7 +76,8 @@ a{
 	width:140px;
 }
 #USA{
-	width:150px;
+	width:140px;
+	margin-left:10px;
 }
 #login:hover{
 	border-bottom: 2px solid black;
@@ -83,13 +89,14 @@ a{
 	width: 80px;
 
 }
+.bn-items {
+	width: 100%;
+}
 .bn-items a{
 	color: black !important; 
 	font-weight: bold;
 
 }
-
-
 
 .bn-items li{
 	margin-left:15px;
@@ -97,74 +104,75 @@ a{
 .bottom-nav{
 	border:1px solid lightgrey;
 	background-color: white;
-
-
 	
 }
-
-
-
-.dropdown-content2{
-	/* display: none; */
-	position: absolute;
-	background-color: white;
-	z-index: 1;
-	border: 1px solid lightgray;
-	/* width: 100vh; */
-
-	
-}
-.dropdown-content2 a:hover {
-	background-color: white;
-	position: relative;
-	text-decoration: none;
-	color: lightgray !important;
-	
-	
-	
-}
-.dropdown2:hover .dropdown-content2 {
-	display: block;
-	
-	
-}
-.dropdown-content2 a {
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	/* width:500px; */
+.moving-ad{
+	background-color: #F5F5F5;
 	width: 100vw;
-	
-}
-.newmen{
-	position: absolute;
-	float: right;
+	height: 50px;
 }
 
+#title-link{
+	color:black;
+	font-weight: bold;
+}
 
 .hero{
 	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/w_1237,c_limit/c89bdca5-712c-449e-af08-d14d104dc939/nikecom-homepage-na.jpg');
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 800px;
+	height: 600px;
 }
+.shop{
+	background-color: #fff;
+	height:50px;
+	width: 70px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 
+}
 .shop:hover {
-	background-color: transparent;
+	background-color:rgba(192, 192, 192, 0.664);
 }
 
+.new{
+	margin-left: 300px;
+	color: black;
+	font-weight: bold;
+}
+.bold-left{
+	
+	font-weight: bold;
+}
 
+#title{
+	color: white;
+	font-weight: 900;
+	margin-left: 20px;
+	font-family: 'Anton', sans-serif;
+}
+#description{
+	color: white;
+	margin-left:20px;
+}
 
+.carousel-item img{
+	height: 300px;
+	width: 100px;
+}
 
+.shoes{
+	margin-left: 10px;
+}
 
-
-
-
-
-
-
-
-
+.carousel-indicators li {
+	background-color: #999;
+	background-color: rgba(70, 70, 70, 0.25);
+  }
+  
+.carousel-indicators .active {
+	background-color: #444;
+  }
 
 
 
