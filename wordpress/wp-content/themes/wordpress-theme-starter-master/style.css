@@ -29,10 +29,15 @@ a{
 	margin-right:650px
 }
   
-.dropdown, .dropdown2 {
+.dropdown {
 	  position: relative;
 	  display: inline-block;
-  }
+	}
+	
+.dropdown2 {
+	background-color: rebeccapurple;
+	position: relative;
+}
 
 .dropdown-content{
 	  display: none;
@@ -83,6 +88,9 @@ a{
 	width: 80px;
 
 }
+.bn-items {
+	width: 100%;
+}
 .bn-items a{
 	color: black !important; 
 	font-weight: bold;
@@ -97,11 +105,14 @@ a{
 .bottom-nav{
 	border:1px solid lightgrey;
 	background-color: white;
-
-
 	
 }
 
+.dropper:hover {
+	width: 200px;
+	height: 400px;
+	background-color: olive;
+}
 
 
 .dropdown-content2{

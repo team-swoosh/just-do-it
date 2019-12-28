@@ -105,30 +105,18 @@
 </nav>
 
 	<!-- BOTTOM NAV -->
-<nav class="navbar navbar-light bottom-nav sticky-top">
+<!-- <nav class="navbar navbar-light bottom-nav sticky-top">
   <a class="navbar-brand">
 	  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" id="nike" alt="">
 	</a>
 	
   <div class="nav navbar center">
 	  <ul class="nav navbar center bn-items">
-		  <div class="dropdown2">
-			<li>
-				<a href="#">NEW RELEASES</a>
-			</li>
-			  	<div class="dropdown-content2" id="newrel">
-					  <a href="#">SHOP ALL NEW ARRIVALS</a>
-					  <a href="#">SNKRS LAUNCH CALENDAR</a>
-					  <a href="#">AIR FORCE 1</a>
-					  <a href="#">BEST OF AIR MAX</a>
-					  <a href="#">BEST SELLERS</a>
-					  <a href="#">NIKELAB</a>
-					  <a href="#">MEMBER EXCLUSIVES</a>
-					  <a href="#">NEW TO SALE</a>
-				</div>
-			</div>
 
 
+			<li><div class="dropper"><a href="#">NEW RELEASES</a></div>
+
+		</li>
 		  <li><a href="#">MEN</a></li>
 		  <li><a href="#">WOMEN</a></li>
 		  <li><a href="#">KIDS</a></li>
@@ -140,7 +128,41 @@
     <input class="form-control mr-sm-2 searchbar d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
   </form>
 </nav>
-</div>
+</div> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand">
+	  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" id="nike" alt="">
+	</a>  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+		<li class="nav-item dropdown open" style="position: initial;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" style="width: 100%" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+	</div>
+	<form class="form-inline">
+    <input class="form-control mr-sm-2 searchbar d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
+  </form>
+</nav>
 			<!-- header -->
 
 			</header>
