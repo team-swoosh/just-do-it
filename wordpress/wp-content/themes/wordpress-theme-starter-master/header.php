@@ -146,9 +146,12 @@
   </form>
 </nav>
 		</div>
-<div class="moving-ad">
-		<div>
-
+		<div class="moving-ad">
+		<div class="first">
+		<p>Extra 20% Off Sale Styles <span id="underline"><a href=""><br>Use Code GOBIG at checkout. Exclusions apply.</a></span></p>
+		</div>
+		<div class="second">
+		<p>Free Shipping & 60-Day Free Returns <br><span id="underline"><a href="">Join Now</a></span></p>
 		</div>
 </div>
 

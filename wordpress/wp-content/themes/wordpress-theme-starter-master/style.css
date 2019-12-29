@@ -106,10 +106,51 @@ a{
 	background-color: white;
 	
 }
+
 .moving-ad{
 	background-color: #F5F5F5;
 	width: 100vw;
 	height: 50px;
+	display: flex;
+  justify-content: space-between;
+}
+.first{
+  width:350px;
+  height:100px;
+  text-align: center;
+  position:relative;
+  animation-timing-function: ease-in-out;
+  animation: firstdiv 5s 15s infinite alternate;
+  animation-fill-mode:backwards;
+ }
+.second{
+  text-align:center;
+  height:100px;
+  width:350px;
+  position:relative;
+  animation-timing-function: ease-in-out;
+  animation: seconddiv 5s 15s infinite alternate;
+  animation-fill-mode:backwards;
+}
+
+@keyframes seconddiv {
+ 0% { transform: translateX(150%); }
+  50%{right:0%}
+  75%{right: 50%;}
+ 100% { right:50%; }
+}
+@keyframes firstdiv {
+ 0% { transform: translateX(150%); }
+  50%{right:0%}
+  75%{right: 50%;}
+    100% { right:50%;}
+}
+
+
+ #underline a{
+  text-decoration: underline;
+  color: black;
+  font-size: small;
 }
 
 #title-link{
