@@ -2,6 +2,18 @@
 			<footer class="footer" role="contentinfo">
 
 				<!-- copyright -->
+				
+				<div class= "flex-container">
+					<div class= "box-one"></div>
+					<div class= "box-two"></div>
+					<div class= "box-three"></div>
+					<div class= "box-four"></div>
+				</div>
+				
+				
+				
+				
+				
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
