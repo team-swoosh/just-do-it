@@ -296,7 +296,10 @@ a{
 	width: 100%;
 }
 
-
+.flex-test {
+	display: flex;
+	flex-direction: row;
+}
 
 
 
