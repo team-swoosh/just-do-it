@@ -203,7 +203,8 @@ a{
 }
 
 .shoes{
-	margin-left: 10px;
+	padding:10px;
+	
 }
 
 .carousel-indicators li {
@@ -214,6 +215,96 @@ a{
 .carousel-indicators .active {
 	background-color: #444;
   }
+.latest{
+	height: 700px;
+	width: 600px;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/h_700,c_limit/8c79c031-9d93-49e0-acd8-086a1b25ebb2/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+}
+.andgreatest{
+	height:700px;
+	width: 600px;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/h_700,c_limit/fdc2320d-9877-4512-887d-6e46a018d0d9/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+.latestgr8est{
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	
+}
+
+.bettertogether{
+	height: 700px;
+	width: 100%;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/w_1237,c_limit/a1d65885-348f-44db-a719-57ac1fd1bda5/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+.mixmatch{
+	color: white;
+	font-weight: 900;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.airforce1{
+	height:700px;
+	width: 600px;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/h_700,c_limit/250132ec-4b84-4db6-add2-a2cdc39fa6ab/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+.trending{
+	color: black;
+	font-size: 20px;
+}
+.airmaxdia{
+	height:700px;
+	width: 600px;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/h_700,c_limit/c7ca8f11-8a14-495e-89f9-943d74eeac16/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+	
+}
+.blackbtn{
+	background-color: black;
+	color: white;
+	width: 90px;
+}
+
+.her{
+	height: 600px;
+	width: 100%;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/w_407,c_limit/b1131ff9-a133-4a76-b22e-fb772993c66d/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+}
+
+.him{
+	height: 600px;
+	width: 100%;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/w_407,c_limit/f8562b6d-7f25-495b-be22-21a5f96b6948/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+}
+.kids{
+	height: 600px;
+	width: 100%;
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/w_407,c_limit/8d005ac1-bd68-4d66-8fad-53ddbd02dd9a/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+}
+
+.carousel-inner{
+	width: 100%;
+}
+
+.flex-test {
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
+
 
   /*-------------------------Footer Styles----------------------------------*/
   
