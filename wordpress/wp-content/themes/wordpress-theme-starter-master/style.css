@@ -8,9 +8,251 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1 {
-  color: mediumaquamarine;
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.topnav{
+	border:1px solid lightgrey;
+	font-size: 14px;
+	height:40px;
+	background-color: white;
+
+  }
+
+.border-right{
+	border-right:1px solid lightgrey
+  }
+
+a{
+	color:lightgrey;
 }
+#converse{
+	margin-right:650px
+}
+  
+.dropdown {
+	  position: relative;
+	  display: inline-block;
+	}
+	
+.dropdown2 {
+	background-color: rebeccapurple;
+	position: relative;
+}
+
+.dropdown-content{
+	  display: none;
+	  position: absolute;
+	  /* top: auto; */
+	  background-color: white;
+	  border: 1px solid lightgray;
+	  width:300px;
+	  z-index: 2000;
+	  
+	  
+}
+  
+.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  width:500px;
+	  
+  }
+.dropdown-content a:hover {
+	  background-color: white;
+	  color: #757575;
+	  position: relative;
+	  z-index: 9999;
+	  
+	  
+  }
+.dropdown:hover .dropdown-content {
+	  display: block;
+  }
+
+#login,#USA{
+	display:inline-block;
+	width:140px;
+}
+#USA{
+	width:140px;
+	margin-left:10px;
+}
+#login:hover{
+	border-bottom: 2px solid black;
+	
+}
+
+#nike{
+	height: 30px;
+	width: 80px;
+
+}
+.bn-items {
+	width: 100%;
+}
+.bn-items a{
+	color: black !important; 
+	font-weight: bold;
+
+}
+
+.bn-items li{
+	margin-left:15px;
+}
+.bottom-nav{
+	border:1px solid lightgrey;
+	background-color: white;
+	
+}
+
+.moving-ad{
+	background-color: #F5F5F5;
+	width: 100vw;
+	height: 50px;
+	display: flex;
+  justify-content: space-between;
+}
+.first{
+  width:350px;
+  height:100px;
+  text-align: center;
+  position:relative;
+  animation-timing-function: ease-in-out;
+  animation: firstdiv 5s 15s infinite alternate;
+  animation-fill-mode:backwards;
+ }
+.second{
+  text-align:center;
+  height:100px;
+  width:350px;
+  position:relative;
+  animation-timing-function: ease-in-out;
+  animation: seconddiv 5s 15s infinite alternate;
+  animation-fill-mode:backwards;
+}
+
+@keyframes seconddiv {
+ 0% { transform: translateX(150%); }
+  50%{right:0%}
+  75%{right: 50%;}
+ 100% { right:50%; }
+}
+@keyframes firstdiv {
+ 0% { transform: translateX(150%); }
+  50%{right:0%}
+  75%{right: 50%;}
+    100% { right:50%;}
+}
+
+
+ #underline a{
+  text-decoration: underline;
+  color: black;
+  font-size: small;
+}
+
+#title-link{
+	color:black;
+	font-weight: bold;
+}
+
+.hero{
+	background-image: url('https://c.static-nike.com/a/images/f_auto/dpr_1.0/w_1237,c_limit/c89bdca5-712c-449e-af08-d14d104dc939/nikecom-homepage-na.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
+.shop{
+	background-color: #fff;
+	height:50px;
+	width: 70px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+.shop:hover {
+	background-color:rgba(192, 192, 192, 0.664);
+}
+
+.new{
+	margin-left: 300px;
+	color: black;
+	font-weight: bold;
+}
+.bold-left{
+	
+	font-weight: bold;
+}
+
+#title{
+	color: white;
+	font-weight: 900;
+	margin-left: 20px;
+	font-family: 'Anton', sans-serif;
+}
+#description{
+	color: white;
+	margin-left:20px;
+}
+
+.carousel-item img{
+	height: 300px;
+	width: 100px;
+}
+
+.shoes{
+	margin-left: 10px;
+}
+
+.carousel-indicators li {
+	background-color: #999;
+	background-color: rgba(70, 70, 70, 0.25);
+  }
+  
+.carousel-indicators .active {
+	background-color: #444;
+  }
+
+  /*-------------------------Footer Styles----------------------------------*/
+  
+.l-footer{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+}
+.footer-link{
+	list-style-type: none;
+	color: white;
+	font-family: 'Teko', sans-serif, medium;
+	margin-bottom: 5px;
+}
+.footer-link a:hover{
+	text-decoration: none;
+	color: white;
+}
+.lower-case{
+	font-size: small;
+	text-decoration: none;
+	color: #7e7e7e;
+	margin-top: 10px;
+}
+.ship{
+	display:inline-block;
+	width: 200px;
+}
+.lower-case a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+footer ul{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
 @media only screen and (max-width:768px) {
 	header {
 		display: none;
@@ -24,5 +266,6 @@ h1 {
 		background-color: black;
 	  }
 }
+
 
 /*# sourceMappingURL=style.css.map */

@@ -13,6 +13,11 @@
 		</section>
 		<!-- /section -->
 	</main>
+	<div class="container">
+		<figure class="hero">
+
+		</figure>
+	</div>
 
 <?php get_sidebar(); ?>
 
