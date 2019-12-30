@@ -218,7 +218,7 @@ a{
   /*-------------------------Footer Styles----------------------------------*/
   
 .l-footer{
-	height: 300px;
+	height: 330px;
 	width: 100%;
 	background-color: black;
 }
@@ -235,7 +235,7 @@ a{
 .lower-case{
 	font-size: small;
 	text-decoration: none;
-	color: #7e7e7e;
+	color: #7E7E7E;
 	margin-top: 10px;
 }
 .ship{
@@ -251,7 +251,10 @@ footer ul{
 	list-style-type: none;
 	text-decoration: none;
 }
-
+.social{
+	display: inline-block;
+	margin-left: 15px;
+}
 
 @media only screen and (max-width:768px) {
 	header {

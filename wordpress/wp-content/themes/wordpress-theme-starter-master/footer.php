@@ -1,7 +1,7 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 				
-			<div class="container-fluid l-footer d-flex justify-content-space-around">
+			<div class="container-fluid l-footer d-flex justify-content-around">
 				<div class="col-2 mt-5">
 				<ul>
 					<li class="footer-link"><a href="">GIFT CARDS</a></li>
@@ -13,7 +13,7 @@
 					<li class="footer-link"><a href="">SITE FEEDBACK</a></li>
 				</ul>
 				</div>
-				<div class="col-2 mt-5">
+				<div class="col-2 mt-5 d-flex">
 				<ul>
 					<li class="footer-link"><a href="">GET HELP</a></li>
 					<li class="lower-case"><a href="">Order Status</a></li>
@@ -24,7 +24,7 @@
 					<li class="lower-case"><a href="">Contact Us</a></li>
 				</ul>
 				</div>
-				<div class="col-2 mt-5">
+				<div class="col-2 mt-5 d-flex">
 				<ul>
 					<li class="footer-link"><a href="">ABOUT NIKE</a></li>
 					<li class="lower-case"><a href="">News</a></li>
@@ -35,12 +35,12 @@
 					<li class="lower-case"><a href="">CA Supply Chains Act</a></li>
 				</ul>
 				</div>
-				<div class="col-6 d-flex flex-row justify-content-end d-inline-block">
+				<div class="col-6 icon mt-5 d-flex flex-row justify-content-end">
 					<ul>
-						<li class="social"><a href=""><i class="fab fa-twitter-square"></i></a></li>
-						<li class="social"><a href=""><i class="fab fa-facebook-square"></i></a></li>
-						<li class="social"><a href=""><i class="fab fa-youtube-square"></i></a></li>
-						<li class="social"><a href=""><i class="fab fa-instagram"></i></a></li>
+						<li class="social"><a href=""><i class="fab fa-twitter-square fa-2x"></i></a></li>
+						<li class="social"><a href=""><i class="fab fa-facebook-square fa-2x"></i></a></li>
+						<li class="social"><a href=""><i class="fab fa-youtube-square fa-2x"></i></a></li>
+						<li class="social"><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
 					</ul>
 				</div>
 				
