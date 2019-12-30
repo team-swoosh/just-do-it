@@ -31,7 +31,7 @@ get_header('header-demo'); ?>
    
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active d-flex flex-row align-items">
+    <div class="carousel-item active d-flex flex-row">
 	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/z4d2dvacdx6vc3a5wi0g/lebron-17-basketball-shoe-6LSXgh.jpg" alt="First slide">
 	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/719f2dc9-7b11-4576-84ed-4dc0bbb7f03e/kyrie-6-basketball-shoe-KQmCXH.jpg" alt="">
 	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/zaiywkaxptzxmajetrd7/pg-3-basketball-shoe-nzrq5r.jpg" alt="">
@@ -53,6 +53,73 @@ get_header('header-demo'); ?>
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<!-- LATEST AND GREATEST -->
+<h2 class="mt-5 ml-5">The Latest and Greatest</h2>
+<section class="contatiner-fluid d-flex">
+  <figure class="col-6 latest d-flex justify-content-end flex-column">
+  <figcaption>
+  <h1 class="latestgr8est mb-5 ml-5">New Work Essentials</h1>
+  </figcaption>
+    <button class="btn shop ml-5">
+    Shop
+    </button>
+  </figure>
+  <figure class="col-6 andgreatest d-flex justify-content-end flex-column">
+    <figcaption>
+      <h1 class="latestgr8est mb-5 ml-5">
+        Air Jordan IV Retro 'Winterized' and More.
+      </h1>
+    </figcaption>
+  <button class="btn shop ml-5">
+    Shop
+    </button>
+  </figure>
+</section>
+<h2 class="mt-5 ml-5">Mix-and-Match Styles</h2>
+<section class="container-fluid d-flex">
+  <figure class="col-12 bettertogether">
+  <figcaption>
+    <h1 class="mixmatch">BETTER <br> TOGETHER</h1>
+    <p id="description">Must-have looks for you and your crew.</p>
+  </figcaption>
+  <button class="btn shop ml-5">
+    Shop
+    </button>
+  </figure>
+</section>
+<h2 class="ml-5"> Trending Now</h2>
+<section class="contatiner-fluid d-flex">
+  <figure class="col-6 airforce1 d-flex justify-content-end flex-column">
+    <figcaption>
+      <h1 class="mb-5 ml-5" id="description">Air Force 1 'Triple Black'</h1>
+      <button class="btn shop ml-5">
+        Shop
+      </button>
+    </figcaption>
+  </figure>
+  <figure class="col-6 airmaxdia d-flex justify-content-end flex-column">
+    <figcaption>
+      <h1 class="trending ml-5 mb-5">Featured In Nike Air Shop: <br> 
+      Air Max Dia</h1>
+      <button class="btn shop ml-5 blackbtn"> Shop</button>
+      <button class="btn shop ml-5 blackbtn"> Explore</button>
+    </figcaption>
+  </figure>
+</section>
+<h2 class="ml-5 mt-5 mb-5">Last Minute Picks for Every Athlete</h2>
+<section class="container-fluid d-flex">
+  <figure class="col-4 her d-flex justify-content-end flex-column"> 
+    <h3>Top Picks for Her</h3>
+  </figure>
+  <figure class="col-4 him d-flex justify-content-end flex-column"> 
+    <h3>Top Picks for Him</h3>
+  </figure>
+  <figure class="col-4 kids d-flex justify-content-end flex-column"> 
+    <h3>Top Picks for Kids</h3>
+  </figure>
+ 
+</section>
 	</main>
 
 
