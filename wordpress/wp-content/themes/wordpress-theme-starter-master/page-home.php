@@ -32,14 +32,17 @@ get_header('header-demo'); ?>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active d-flex flex-row">
-	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/z4d2dvacdx6vc3a5wi0g/lebron-17-basketball-shoe-6LSXgh.jpg" alt="First slide">
-	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/719f2dc9-7b11-4576-84ed-4dc0bbb7f03e/kyrie-6-basketball-shoe-KQmCXH.jpg" alt="">
-	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/zaiywkaxptzxmajetrd7/pg-3-basketball-shoe-nzrq5r.jpg" alt="">
-	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/mpjp035mxzjelypmebmj/zoom-freak-1-basketball-shoe-tmk8Hw.jpg" alt="">
+	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/wzegomgcazvlxx5fwz91/air-max-720-womens-shoe-L64RdZ.jpg" alt="First slide">
+	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/z3jmd3r71ghksc5xgvnp/air-max-720-mens-shoe-Nz7NKG.jpg" alt="">
+	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/rnm34fzuxqnaf6ja3dax/air-max-720-womens-shoe-L64RdZ.jpg" alt="">
+	  <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/a06b4859-9363-4781-998c-1461781ea38d/mx-720-818-mens-shoe-HX1Wph.jpg" alt="">
     </div>
-   <div class="carousel-item">
-      <img class="d-block w-25 shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/3d8a6abb-cdc3-4465-9944-03b8f3abeec4/air-zoom-unvrs-flyease-basketball-shoe-29tFGs.jpg" alt="Second slide">
-    </div>
+      <div class="carousel-item">
+      <img class="w-25 d-block shoes" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/3d8a6abb-cdc3-4465-9944-03b8f3abeec4/air-zoom-unvrs-flyease-basketball-shoe-29tFGs.jpg" alt="Second slide">
+      <img src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/75f27333-3611-440e-8c61-c226862f5bc1/mx-720-818-little-big-kids-shoe-L8j0rv.jpg" alt="" class="w-25 d-block shoes">
+      <img src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/967faa36-ffec-418f-b0bb-87e9f485f1c1/mx-720-818-little-big-kids-shoe-L8j0rv.jpg" alt="" class="w-25 d-block shoes">
+      <img src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/z3jmd3r71ghksc5xgvnp/air-max-720-mens-shoe-Nz7NKG.jpg" alt="" class="w-25 shoes d-block">
+      </div>
     <!-- <div class="carousel-item">
       <img class="d-block w-100" src="..." alt="Third slide">
     </div>  -->
