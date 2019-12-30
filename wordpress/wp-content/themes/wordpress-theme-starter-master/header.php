@@ -7,7 +7,8 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/nike-logo.png" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
-
+		<!---Google Font----->
+		<link href="https://fonts.googleapis.com/css?family=Teko:500&display=swap" rel="stylesheet">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
@@ -151,6 +152,7 @@
 		<p>Extra 20% Off Sale Styles <span id="underline"><a href=""><br>Use Code GOBIG at checkout. Exclusions apply.</a></span></p>
 		</div>
 		<div class="second">
+
 		<p>Free Shipping & 60-Day Free Returns <br><span id="underline"><a href="#">Join Now</a></span></p>
 		</div>
 </div>

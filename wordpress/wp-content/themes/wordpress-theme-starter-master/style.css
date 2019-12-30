@@ -306,10 +306,46 @@ a{
 
 
 
+  /*-------------------------Footer Styles----------------------------------*/
+  
+.l-footer{
+	height: 330px;
+	width: 100%;
+	background-color: black;
+}
+.footer-link{
+	list-style-type: none;
+	color: white;
+	font-family: 'Teko', sans-serif, medium;
+	margin-bottom: 5px;
+}
+.footer-link a:hover{
+	text-decoration: none;
+	color: white;
+}
+.lower-case{
+	font-size: small;
+	text-decoration: none;
+	color: #7E7E7E;
+	margin-top: 10px;
+}
+.ship{
+	display:inline-block;
+	width: 200px;
+}
+.lower-case a:hover{
+	text-decoration: none;
+	color: white;
+}
 
-
-
-
+footer ul{
+	list-style-type: none;
+	text-decoration: none;
+}
+.social{
+	display: inline-block;
+	margin-left: 15px;
+}
 
 @media only screen and (max-width:768px) {
 	header {
@@ -318,5 +354,12 @@ a{
 	footer {
 		display: none;
 	}
+	.flex-container{
+		width: 100%;
+		height: 500px;
+		background-color: black;
+	  }
 }
+
+
 /*# sourceMappingURL=style.css.map */

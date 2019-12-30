@@ -137,5 +137,6 @@ get_header('header-demo'); ?>
 	</main>
 
 
-</section>
+
+				
 <?php get_footer(); ?>
