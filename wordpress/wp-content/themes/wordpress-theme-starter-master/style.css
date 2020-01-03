@@ -309,7 +309,7 @@ a{
   /*-------------------------Footer Styles----------------------------------*/
   
 .l-footer{
-	height: 330px;
+	height: 260px;
 	width: 100%;
 	background-color: black;
 }
@@ -346,6 +346,47 @@ footer ul{
 	display: inline-block;
 	margin-left: 15px;
 }
+
+.social i:hover{
+	color: white;
+}
+
+.sub-footer{
+	height: 75px;
+	width: 100%;
+	background-color: black;
+	border-top: 1px solid #222;
+}
+
+sub-footer ul{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.marker{
+	font-size: 10px;
+}
+
+.copy{
+	font-size: 10px;
+	color: lightgray;
+}
+
+.marker a:hover{
+	color: white;
+}
+
+.privacy{
+	font-size: 10px;
+	color: lightgray;
+	list-style: none;
+	display: inline-block;
+}
+
+
+
+
+
 
 @media only screen and (max-width:768px) {
 	header {

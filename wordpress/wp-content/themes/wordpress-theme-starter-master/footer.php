@@ -4,48 +4,63 @@
 			<div class="container-fluid l-footer d-flex justify-content-around">
 				<div class="col-2 mt-5">
 				<ul>
-					<li class="footer-link"><a href="">GIFT CARDS</a></li>
-					<li class="footer-link"><a href="">STUDENT DISCOUNT</a></li>
-					<li class="footer-link"><a href="">MILITARY DISCOUNT</a></li>
-					<li class="footer-link"><a href="">FIND A STORE</a></li>
-					<li class="footer-link"><a href="">SIGN UP FOR EMAIL</a></li>
-					<li class="footer-link"><a href="">BECOME A MEMBER</a></li>
-					<li class="footer-link"><a href="">SITE FEEDBACK</a></li>
+					<li class="footer-link"><a href="##">GIFT CARDS</a></li>
+					<li class="footer-link"><a href="#">STUDENT DISCOUNT</a></li>
+					<li class="footer-link"><a href="#">MILITARY DISCOUNT</a></li>
+					<li class="footer-link"><a href="#">FIND A STORE</a></li>
+					<li class="footer-link"><a href="#">SIGN UP FOR EMAIL</a></li>
+					<li class="footer-link"><a href="#">BECOME A MEMBER</a></li>
+					<li class="footer-link"><a href="#">SITE FEEDBACK</a></li>
 				</ul>
 				</div>
 				<div class="col-2 mt-5 d-flex">
 				<ul>
-					<li class="footer-link"><a href="">GET HELP</a></li>
-					<li class="lower-case"><a href="">Order Status</a></li>
-					<li class="lower-case ship"><a href="">Shipping and Delivery</a></li>
-					<li class="lower-case"><a href="">Returns</a></li>
-					<li class="lower-case"><a href="">Payment Options</a></li>
-					<li class="lower-case"><a href="">Gift Card Balance</a></li>
-					<li class="lower-case"><a href="">Contact Us</a></li>
+					<li class="footer-link"><a href="#">GET HELP</a></li>
+					<li class="lower-case"><a href="#">Order Status</a></li>
+					<li class="lower-case ship"><a href="#">Shipping and Delivery</a></li>
+					<li class="lower-case"><a href="#">Returns</a></li>
+					<li class="lower-case"><a href="#">Payment Options</a></li>
+					<li class="lower-case"><a href="#">Gift Card Balance</a></li>
+					<li class="lower-case"><a href="#">Contact Us</a></li>
 				</ul>
 				</div>
 				<div class="col-2 mt-5 d-flex">
 				<ul>
-					<li class="footer-link"><a href="">ABOUT NIKE</a></li>
-					<li class="lower-case"><a href="">News</a></li>
-					<li class="lower-case"><a href="">Career</a></li>
-					<li class="lower-case"><a href="">Investors</a></li>
-					<li class="lower-case"><a href="">Purpose</a></li>
-					<li class="lower-case"><a href="">Sustainability</a></li>
-					<li class="lower-case"><a href="">CA Supply Chains Act</a></li>
+					<li class="footer-link"><a href="#">ABOUT NIKE</a></li>
+					<li class="lower-case"><a href="#">News</a></li>
+					<li class="lower-case"><a href="#">Career</a></li>
+					<li class="lower-case"><a href="#">Investors</a></li>
+					<li class="lower-case"><a href="#">Purpose</a></li>
+					<li class="lower-case"><a href="#">Sustainability</a></li>
+					<li class="lower-case"><a href="#">CA Supply Chains Act</a></li>
 				</ul>
 				</div>
 				<div class="col-6 icon mt-5 d-flex flex-row justify-content-end">
 					<ul>
-						<li class="social"><a href=""><i class="fab fa-twitter-square fa-2x"></i></a></li>
-						<li class="social"><a href=""><i class="fab fa-facebook-square fa-2x"></i></a></li>
-						<li class="social"><a href=""><i class="fab fa-youtube-square fa-2x"></i></a></li>
-						<li class="social"><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+						<li class="social"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+						<li class="social"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+						<li class="social"><a href="#"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+						<li class="social"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+				<div class="container-fluid sub-footer d-flex justify-content-between">
+				<div class="col-6 copywrite d-flex flex-row align-items-end">
+					<ul>
+						<li class="marker"><a href="#"><i class="fas fa-map-marker-alt"> United States</i></a></li>
+						<li class="copy">© 2019 Nike, Inc. All Rights Reserved</li>
+					</ul>
+				</div>
+				<div class="col-6 privacy d-flex flex-row align-items-end">
+					<ul>
+						<li class="guides">Guides</li>
+						<li class="terms">Terms of Use</li>
+						<li class="policy">Nike Privacy Policy</li>
 					</ul>
 				</div>
 				
-			
-			</div>
+				</div>
+		
 
 				<!--copyright -->
 				<!-- <p class="copyright">
