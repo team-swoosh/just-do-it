@@ -352,7 +352,7 @@ footer ul{
 }
 
 .sub-footer{
-	height: 75px;
+	height: 65px;
 	width: 100%;
 	background-color: black;
 	border-top: 1px solid #222;
@@ -380,9 +380,25 @@ sub-footer ul{
 	font-size: 10px;
 	color: lightgray;
 	list-style: none;
+}
+
+.sub{
 	display: inline-block;
 }
 
+.sub-right{
+	margin-right: 20px;
+}
+
+/* .drop-up-box ul{
+display: none;
+} */
+
+.sub-content{
+	color: #7E7E7E;
+	
+
+}
 
 
 

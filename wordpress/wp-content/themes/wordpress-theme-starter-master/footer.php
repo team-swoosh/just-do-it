@@ -47,15 +47,66 @@
 				<div class="container-fluid sub-footer d-flex justify-content-between">
 				<div class="col-6 copywrite d-flex flex-row align-items-end">
 					<ul>
-						<li class="marker"><a href="#"><i class="fas fa-map-marker-alt"> United States</i></a></li>
-						<li class="copy">© 2019 Nike, Inc. All Rights Reserved</li>
+						<li class="sub sub-left marker"><a href="#"><i class="fas fa-map-marker-alt"> United States</i></a></li>
+						<li class="sub sub-left copy">© 2019 Nike, Inc. All Rights Reserved</li>
 					</ul>
 				</div>
-				<div class="col-6 privacy d-flex flex-row align-items-end">
+				<div class="col-6 privacy d-flex flex-row align-items-end justify-content-end mr-5">
 					<ul>
-						<li class="guides">Guides</li>
-						<li class="terms">Terms of Use</li>
-						<li class="policy">Nike Privacy Policy</li>
+
+					<div class="drop-up sub sub-right"> 
+			<a class="sub-link" href="#" id="guides">
+				Guides
+			</a>
+				<div class="container drop-up-box deflex justify-content-around flex-row">
+					<div class="col-2 sub-content d-flex">
+					<ul>
+						<li>Nike Joyride</li>
+						<li>Nike Hyperadapt</li>
+						<li>Nike Flyleather</li>
+						<li>Nike ZoomX</li>
+						<li>NBA</li>
+						<li>Nike Air Max</li>
+						<li>Kids</li>
+						<li>Golf</li>
+						<li>Skateboarding</li>
+						<li>Baseball</li>
+					</ul>
+					</div>
+					<div class="col-2 sub-content d-flex">
+					<ul>
+						<li>Nike ADAPT</li>
+						<li>Nike React</li>
+						<li>Nike Flyknit</li>
+						<li>Nike Pegasus</li>
+						<li>Nike FlyEase</li>
+						<li>NBA Jerseys</li>
+						<li>Running</li>
+						<li>Nike Sportswear</li>
+						<li>Tennis</li>
+						<li>Nike Promo Codes</li>
+					</ul>
+					</div>
+					<div class="col-2 sub-content d-flex">
+					<ul>
+						<li>Nike Air</li>
+						<li>Nike VaporMaxt</li>
+						<li>Nike Free</li>
+						<li>Nike Lunarlon</li>
+						<li>Nike Air Force 1</li>
+						<li>Nike Vaporfly</li>
+						<li>Basketball</li>
+						<li>Soccer</li>
+						<li>Football</li>
+						<li>Giannis Antetokounmpo</li>
+					</ul>
+					</div>
+					
+				</div>
+					</div>
+
+						<li class="sub sub-right terms">Terms of Use</li>
+						<li class="sub sub-right policy">Nike Privacy Policy</li>
 					</ul>
 				</div>
 				
