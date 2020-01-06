@@ -390,14 +390,24 @@ sub-footer ul{
 	margin-right: 20px;
 }
 
-/* .drop-up-box ul{
+.sub-left{
+	margin-left: 20px;
+}
+
+.drop-up-box ul{
 display: none;
-} */
+}
 
 .sub-content{
 	color: #7E7E7E;
-	
+}
 
+.space{
+	width:150px;
+}
+
+.sub-link{
+	margin-left: 200px;
 }
 
 
@@ -418,5 +428,9 @@ display: none;
 	  }
 }
 
+
+/* .temp-bg {
+	background-color: midnightblue;
+} */
 
 /*# sourceMappingURL=style.css.map */

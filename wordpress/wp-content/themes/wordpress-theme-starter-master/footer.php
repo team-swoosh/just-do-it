@@ -44,7 +44,7 @@
 					</ul>
 				</div>
 			</div>
-				<div class="container-fluid sub-footer d-flex justify-content-between">
+				<div class="container-fluid sub-footer d-flex flex-row justify-content-between">
 				<div class="col-6 copywrite d-flex flex-row align-items-end">
 					<ul>
 						<li class="sub sub-left marker"><a href="#"><i class="fas fa-map-marker-alt"> United States</i></a></li>
@@ -54,11 +54,11 @@
 				<div class="col-6 privacy d-flex flex-row align-items-end justify-content-end mr-5">
 					<ul>
 
-					<div class="drop-up sub sub-right"> 
+					<!-- <div class="drop-up sub sub-right"> 
 			<a class="sub-link" href="#" id="guides">
 				Guides
 			</a>
-				<div class="container drop-up-box deflex justify-content-around flex-row">
+				<div class="container drop-up-box d-flex justify-content-around flex-row temp-bg">
 					<div class="col-2 sub-content d-flex">
 					<ul>
 						<li>Nike Joyride</li>
@@ -73,7 +73,7 @@
 						<li>Baseball</li>
 					</ul>
 					</div>
-					<div class="col-2 sub-content d-flex">
+					<div class="col-2 sub-content space d-flex">
 					<ul>
 						<li>Nike ADAPT</li>
 						<li>Nike React</li>
@@ -103,8 +103,8 @@
 					</div>
 					
 				</div>
-					</div>
-
+					</div> -->
+						<li class="sub sub-right guides">Guides</li>
 						<li class="sub sub-right terms">Terms of Use</li>
 						<li class="sub sub-right policy">Nike Privacy Policy</li>
 					</ul>
