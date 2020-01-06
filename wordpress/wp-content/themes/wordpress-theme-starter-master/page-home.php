@@ -43,17 +43,11 @@ get_header('header-demo'); ?>
     <div class="carousel-item">
       <div class="row">
       <img class="w-25 d-block shoes d-flex" src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/3d8a6abb-cdc3-4465-9944-03b8f3abeec4/air-zoom-unvrs-flyease-basketball-shoe-29tFGs.jpg" alt="Second slide">
-        <div class="shoedescription">
-        Nike Air Max 720 <br>
-        Men's Shoe <br>
-        $180
-
-        </div>
+      
         
       <img src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/75f27333-3611-440e-8c61-c226862f5bc1/mx-720-818-little-big-kids-shoe-L8j0rv.jpg" alt="" class="w-25 d-block shoes">
-      <!-- <div class="pls">
-          Nike Air Max 720
-      </div> -->
+      
+      
     
       <img src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/967faa36-ffec-418f-b0bb-87e9f485f1c1/mx-720-818-little-big-kids-shoe-L8j0rv.jpg" alt="" class="w-25 d-block shoes">
       <img src="https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/z3jmd3r71ghksc5xgvnp/air-max-720-mens-shoe-Nz7NKG.jpg" alt="" class="w-25 shoes d-block">

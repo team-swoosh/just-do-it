@@ -147,6 +147,7 @@ a{
     100% { right:50%;}
 }
 
+
  #underline a{
   text-decoration: underline;
   color: black;
@@ -302,12 +303,13 @@ a{
 	bottom:12px;
 	font-size: 14px;
 }
-.pls{
-	position: relative;
-	right: 250px;
+#grey{
+	color: gray;
 }
 
-
+.shoedescription2{
+	 
+}
 
 
 
