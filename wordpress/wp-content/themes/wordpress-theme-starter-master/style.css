@@ -113,6 +113,7 @@ a{
 	height: 50px;
 	display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .first{
   width:350px;
@@ -120,7 +121,7 @@ a{
   text-align: center;
   position:relative;
   animation-timing-function: ease-in-out;
-  animation: firstdiv 5s 15s infinite alternate;
+  animation: firstdiv 15s 20s infinite alternate;
   animation-fill-mode:backwards;
  }
 .second{
@@ -129,15 +130,15 @@ a{
   width:350px;
   position:relative;
   animation-timing-function: ease-in-out;
-  animation: seconddiv 5s 15s infinite alternate;
+  animation: seconddiv 15s 20s infinite alternate;
   animation-fill-mode:backwards;
 }
 
 @keyframes seconddiv {
  0% { transform: translateX(150%); }
   50%{right:0%}
-  75%{right: 50%;}
- 100% { right:50%; }
+  75%{right: 40%;}
+ 100% { right:40%; }
 }
 @keyframes firstdiv {
  0% { transform: translateX(150%); }
@@ -296,12 +297,19 @@ a{
 	width: 100%;
 }
 
-.flex-test {
-	display: flex;
-	flex-direction: row;
+.shoedescription{
+	position: absolute;
+	left:80px;
+	bottom:12px;
+	font-size: 14px;
+}
+#grey{
+	color: gray;
 }
 
-
+.shoedescription2{
+	 
+}
 
 
 
@@ -409,6 +417,20 @@ display: none;
 .sub-link{
 	margin-left: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

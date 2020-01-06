@@ -126,6 +126,7 @@
 				 <a href="#" class="dropdown-item bold-left">NIKELAB</a>
 				 <a href="#" class="dropdown-item bold-left">MEMBER EXCLUSIVES</a>
 				 <a href="#" class="dropdown-item bold-left">NEW TO SALE</a>
+	
        		</div>
       		</li>
       <li class="nav-item active">
